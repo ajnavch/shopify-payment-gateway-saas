@@ -1,0 +1,30 @@
+{
+  "name": "shopify-payment-gateway-saas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SaaS Shopify Payment Gateway App with multi PayPal account rotation, quota, admin dashboard, and embedded UI.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@shopify/polaris": "^12.7.0",
+    "mongoose": "^8.3.3",
+    "next": "^14.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.2.69",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
